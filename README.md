@@ -1,8 +1,35 @@
 # Discourse Graph Annotation Tool (DiGAT)
 
-Annotation tool used in the following paper:
+Annotation tool used in our paper at the 2015 Workshop on Argumentation Mining. Please use the following citation:
 
-> Kirschner, C., Eckle-Kohler, J., & Gurevych, I. (2015). Linking the Thoughts : Analysis of Argumentation Structures in Scientific Publications. In Proceedings of the 2nd Workshop on Argumentation Mining (pp. 1–11). Denver, Colorado: Association for Computational Linguistics. URL: http://www.aclweb.org/anthology/W15-0501
+```
+@inproceedings{KirschnerEtalArgMinWS2015,
+	author = {Christian Kirschner and Judith Eckle-Kohler and Iryna Gurevych},
+	title = {Linking the Thoughts: Analysis of Argumentation Structures in Scientific
+Publications},
+	month = jun,
+	year = {2015},
+	booktitle = {Proceedings of the 2nd Workshop on Argumentation Mining held in conjunction
+with the 2015 Conference of the North American Chapter of the Association
+for Computational Linguistics – Human Language Technologies (NAACL HLT
+2015)},
+	pages = {1-11},
+	url = {http://www.aclweb.org/anthology/W15-0501},
+}
+```
+
+> **Abstract:** This paper presents the results of an annotation study focused on the fine-grained analysis of argumentation structures in scientific publications.   Our  new  annotation  scheme  specifies four types of binary argumentative relations between sentences, resulting in the representation of arguments as small graph structures.   We  developed  an  annotation  tool  that supports  the  annotation  of  such  graphs  and carried out an annotation study with four annotators on 24 scientific articles from the domain of educational research.  For calculating the inter-annotator agreement, we adapted existing measures and developed a novel graph-based  agreement  measure  which  reflects  the semantic   similarity   of   different   annotation graphs.
+
+Contact person: Dr. Johannes Daxenberger, daxenberger@ukp.informatik.tu-darmstadt.de
+
+http://www.ukp.tu-darmstadt.de/
+
+http://www.tu-darmstadt.de/
+
+
+Don't hesitate to send us an e-mail or report an issue, if something is broken (and it shouldn't be) or if you have further questions.
+
+> This repository contains experimental software and is published for the sole purpose of giving additional background details on the respective publication. 
 
 Copyright (c) 2013-2015 UKP TU Darmstadt: Artem Vovk, Roland Kluge, Christian Kirschner
 
